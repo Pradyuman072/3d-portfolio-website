@@ -9,7 +9,7 @@ export const Bio = {
     "Full stack developer focused on building fast, accessible, and reliable web applications. Experienced in delivering complete features from intuitive UI development to secure backend integrations. Enjoys working with teams, sharing knowledge, and solving real world problems through software.",
   github: "https://github.com/Pradyuman072",
   resume:
-    "",
+    "https://drive.google.com/drive/u/0/folders/17swV23kAZ_g6DA770XOPn4JMXifZi4c4",
   linkedin: "https://in.linkedin.com/in/pradyuman-sharma-273a8531a?trk=people-guest_people_search-card",
  
 };
