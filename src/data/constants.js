@@ -6,7 +6,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Full stack developer focused on building fast, accessible, and reliable web applications. Experienced in delivering complete features from intuitive UI development to secure backend integrations. Enjoys working with teams, sharing knowledge, and solving real world problems through software.",
   github: "https://github.com/Pradyuman072",
   resume:
     "",
@@ -23,9 +23,10 @@ export const skills = [
         image:
           "ReactJs",
       },
-     
-     
-    
+      {
+        name: "Next Js",
+        image: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+      },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -39,6 +40,14 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "TypeScript",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        image: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
       },
       {
         name: "Bootstrap",
@@ -59,26 +68,25 @@ export const skills = [
         image:
           "ExpressJs",
       },
-     
       {
         name: "Python",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
-   
-    
       {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-     
       {
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-     
+      {
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
     ],
   },
   {
@@ -94,7 +102,6 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      
       {
         name: "VS Code",
         image:
@@ -105,6 +112,14 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
       },
+      {
+        name: "MATLAB",
+        image: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
+      },
+      {
+        name: "Arduino",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg",
+      },
     ],
   },
 ];
@@ -113,10 +128,18 @@ export const experiences = [
   {
     id: 0,
     img: "https://images.app.goo.gl/bSU1TGuAHc2jVtXg8",
+    role: "Executive Member and Web Developer",
+    company: "Team Ojas, NIT Hamirpur",
+    date: "Jan 2025 - Apr 2025",
+    desc: "Designed and deployed the official team website improving engagement and visibility among 1000 plus students. Organized sessions on JavaScript, MATLAB and IoT based API workflows for 100 plus learners.",
+  },
+  {
+    id: 1,
+    img: "https://images.app.goo.gl/bSU1TGuAHc2jVtXg8",
     role: "Executive Member ",
     company: "Elsoc Nit Hamirpur",
     date: "Oct 2024 - Present",
-    desc: "Contributed to different  projects ",
+    desc: "Contributed to different projects and software initiatives improving accessibility on campus.",
   },
 ];
 
@@ -125,46 +148,63 @@ export const education = [
     id: 0,
     img: "https://upload.wikimedia.org/wikipedia/en/b/b8/National_Institute_of_Technology%2C_Hamirpur_Logo.png",
     school: "National Institute of Technology Hamirpur",
-    date: "Aug 2023 - Sep 2027",
+    date: "Aug 2023 - May 2027",
     grade: "8.85 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Electrical   Engineering at National Institute of Technology Hamirpur. I have completed 2 semesters and have a CGPA of 8.85.I am also a member of the ELSOC, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "I am currently pursuing a Bachelor's degree in Electrical Engineering at National Institute of Technology Hamirpur. I have a CGPA of 8.85. I am also a member of Team Ojas and ELSOC, where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Technology - BTech, Electrical Engineering",
   },
   {
     id: 1,
     img: "https://upload.wikimedia.org/wikipedia/en/e/eb/DAV_CMC_Logo.svg",
     school: "Dayanand Public School, Shimla",
-    date: "Apr 2020 - Apr 2022",
-    grade: "95.2%",
+    date: "Apr 2020 - May 2023",
+    grade: "95.02%",
     desc: "I completed my class 12 high school education at Dayanand Public School, Shimla, where I studied Science with Computer Science.",
-    
-  },
-  {
-    id: 2,
-    img: "https://upload.wikimedia.org/wikipedia/en/e/eb/DAV_CMC_Logo.svg",
-    school: "Dayanand Public School, Shimla",
-    date: "Apr 2007 - Apr 2020",
-    grade: "92%",
-    desc: "I completed my class 10 education at Dayanand Public School, Shimla, where I studied Science with Computer Application.",
     
   },
 ];
 
 export const projects = [
   {
-    id: 11,
-    title: "Ecommerse",
-    date: "Oct 2024 - Nov 2024",
-    image:
-      "To BE Posted",
+    id: 0,
+    title: "IllumiTrace Smart PCB Soldering Assistant",
+    date: "2025",
+    image: "/projects/illumitrace.png",
     tags: [
-      "React Js",
-      "Mongodb",
-      "Node Js",
-      "Express Js",
+      "Next.js",
+      "Arduino",
+      "Computer Vision",
     ],
+    description: "Built a guided soldering interface reducing component placement mistakes by 40%. Developed real time feedback system for efficient PCB prototyping.",
     category: "web app",
-    github: "To be Posted",
+    github: "https://github.com/Pradyuman072",
+  },
+  {
+    id: 1,
+    title: "GovConnect Citizen Issue Reporting Platform",
+    date: "2025",
+    image: "/projects/govconnect.png",
+    tags: [
+      "MERN Stack",
+      "JWT",
+      "MongoDB",
+    ],
+    description: "Enabled secure login, geotagging and media support for reporting civic issues. Developed analytics dashboard improving issue tracking for authorities.",
+    category: "web app",
+    github: "https://github.com/Pradyuman072",
+  },
+  {
+    id: 2,
+    title: "Team Ojas Website",
+    date: "2025",
+    image: "/projects/ojas.png",
+    tags: [
+      "Next.js",
+      "Node.js",
+      "Tailwind CSS",
+    ],
+    description: "Delivered a responsive platform with improved SEO and optimized performance. Integrated secure APIs enabling dynamic updates to event details.",
+    category: "web app",
+    github: "https://github.com/Pradyuman072",
   },
 ];
-

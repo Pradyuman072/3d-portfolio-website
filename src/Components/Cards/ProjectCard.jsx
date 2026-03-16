@@ -87,8 +87,8 @@ const ProjectCard = ({project}) => {
 <Date>
     {project.date}
 </Date>
-<Title>{project.title}</Title>
-<Description>{project.Description}</Description>
+{/* <Title>{project.title}</Title> */}
+<Description>{project.description}</Description>
    </Details>
    <Button href={project.github}>
    View Code

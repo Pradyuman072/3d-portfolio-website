@@ -133,7 +133,7 @@ z-index: ${({isOpen}) => (isOpen ? "1000" : "-1000" )};
 
             <NavbarContainer>
                 <NavLogo to="/">
-                    Pravya
+                    Portfolio
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>
                     <MenuRounded style={{ color: 'inherit' }} />
